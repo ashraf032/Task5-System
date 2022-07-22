@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    background-color: #051a24;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+
+#wrapper .product {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#wrapper #algo-expert {
+    width: 75%;
+    height: 50px;
+    background-color: #3a65c2;
+    order: 3;
+}
+
+#wrapper #systems-expert {
+    height: 50px;
+    width: 50%;
+    order: 1;
+    background-color: #920707;
+}
+
+#wrapper #ml-expert {
+    width: 30%;
+    height: 75px;
+    background-color: rgb(247, 162, 6);
+    order: 2;
+    margin-left: auto;
+}
+
+#wrapper #frontend-expert {
+    order: 4;
+    height: 50px;
+    align-self: flex-end;
+    background-color: #2e8b6c;
+    width: 40%;
+}
+
+#wrapper #programming-expert {
+    background-color: pink;
+    height: 75px;
+    width: 58%;
+    order: 5;
+    align-self: flex-end;
+    margin-left: auto;
+}
